@@ -16,7 +16,7 @@ while True:
         odd_count = 0
         largest = 0
         smallest = 9
-        rev = 0
+        rev = 0   
 
         temp = num ## we are using temp to keep our orgginal number safe.
 
@@ -39,9 +39,15 @@ while True:
             if last < smallest:
                 smallest = last
 
+
             rev = rev * 10 + last
             
             temp = temp // 10 ## we are using // this to remove the last digit
+
+        if temp == rev:
+            print("palindrome")
+        else:
+            print("its not palindrome")
 
             
         print("Digits:", dig)
