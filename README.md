@@ -39,6 +39,7 @@ This project is made to practice basic Python concepts like:
 
 Future Improvements
 Add palindrome check (e.g., 121 → same reverse)
+>>its added
 Handle negative numbers
 Add input validation (prevent wrong input)
 Convert into GUI (using Tkinter)
